@@ -23,7 +23,7 @@ client/*.iml
 client/.vscode
 client/*.swp
 client/*.swo
-client/
+
 client/packages/react-devtools-core/dist
 client/packages/react-devtools-extensions/chrome/build
 client/packages/react-devtools-extensions/chrome/*.crx

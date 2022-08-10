@@ -1,0 +1,54 @@
+@import './variables'
+
+.toolbar
+    position: fixed
+    top: 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 1rem 0 1rem
+    width: 100%
+    max-width: 100%
+    background-color: $toolbar-color
+    height: $toolbar-hieght
+    border-bottom: 1px solid #353D30
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+    &__btn
+        height: 1.6rem
+        width: 1.6rem
+        border: none
+        outline: none
+        cursor: pointer
+        background-size: cover
+        margin-left: 10px
+
+.settings
+    background-color: $settings-color
+    color: $background-color
+    height: $settings-hieght
+    margin-top: $toolbar-hieght
+    justify-content: start
+
+    &__inp
+        background-color: inherit
+        margin-left: .5rem
+        width: 2rem
+        border: 1px solid #353D30
+
+.brush
+    background: url("../assets/brush.png") center no-repeat
+.rect
+    background: url("../assets/rect.png") center no-repeat
+.circle
+    background: url("../assets/circle.png") center no-repeat
+.eraser
+    background: url("../assets/eraser.png") center no-repeat
+.line
+    background: url("../assets/line.png") center no-repeat
+.undo
+    background: url("../assets/undo.png") center no-repeat
+.redo
+    background: url("../assets/redo.png") center no-repeat
+.save
+    background: url("../assets/save.png") center no-repeat
